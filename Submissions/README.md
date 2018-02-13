@@ -14,3 +14,4 @@ Intended Bells/Whistles
 5)Replication (holy baloney this would take like 20 minutes i feel. Like cake, like if you know how to use Tableau, youre good, fam)
 
 totaling out at like 16 extra credit points. But how is the grade determined? :thinking:
+YO HOLY SHIT EMOTES WORK :ok_hand:
