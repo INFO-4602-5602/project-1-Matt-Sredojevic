@@ -21,3 +21,13 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+#scatterplotSet svg{
+    width: 25%;
+    height: 25%;
+}
+
+#scatterplotSet {
+    display: flex;
+    flex:wrap;
+}
