@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Project 0</title>
-<style type="text/css" href="project0.css"></style>
+<link rel="stylesheet" href="project1.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!--Put your D3 import statement between these two lines-->
     <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -84,6 +84,13 @@
             .append("g")
             .attr("transform", "translate("+margin.left + "," + margin.top+")");
         
+        svg.append("text")
+             .attr("x",(width/2))
+             .attr("y",0-(margin.top/3))
+             .attr("text-anchor", "middle")
+             .style("font-size","16px")
+             .text("Anscombe I");
+        
         d3.csv("data/anscombe_I.csv", function(error, data){
             if (error) throw error;
             
@@ -138,6 +145,13 @@
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate("+margin.left + "," + margin.top+")");
+        
+        svg2.append("text")
+             .attr("x",(width/2))
+             .attr("y",0-(margin.top/3))
+             .attr("text-anchor", "middle")
+             .style("font-size","16px")
+             .text("Anscombe I");
         
         d3.csv("data/anscombe_I.csv", function(error, data){
             if (error) throw error;
@@ -303,7 +317,7 @@
              .attr("y",0-(margin.top/3))
              .attr("text-anchor", "middle")
              .style("font-size","16px")
-             .text("Anscombe I");
+             .text("Anscombe II");
         
         d3.csv("data/anscombe_II.csv", function(error, data){
             if (error) throw error;
@@ -363,7 +377,7 @@
              .attr("y",0-(margin.top/3))
              .attr("text-anchor", "middle")
              .style("font-size","16px")
-             .text("Anscombe I");
+             .text("Anscombe III");
         
         d3.csv("data/anscombe_III.csv", function(error, data){
             if (error) throw error;
@@ -423,7 +437,7 @@
              .attr("y",0-(margin.top/3))
              .attr("text-anchor", "middle")
              .style("font-size","16px")
-             .text("Anscombe I");
+             .text("Anscombe IV");
         
         d3.csv("data/anscombe_IV.csv", function(error, data){
             if (error) throw error;

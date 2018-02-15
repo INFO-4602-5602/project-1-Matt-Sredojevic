@@ -17,17 +17,15 @@ body {
 
 .label {
     text-anchor: middle;
-    font-size: 12px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
 }
 
-#scatterplotSet svg{
-    width: 25%;
-    height: 25%;
-}
 
-#scatterplotSet {
-    display: flex;
-    flex:wrap;
+/*
+#scatterplotSet svg{
+    width: 50%;
+    height: 50%;
 }
+*/
